@@ -20,7 +20,7 @@
 // André Furlan
 // Junio Grigorio da Silva
 #include <iostream>
-
+// Fernando Gorzoni
 int main(int argc, char **argv)
 {
 	int dia = 0;
