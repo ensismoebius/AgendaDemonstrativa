@@ -1,3 +1,19 @@
+// ESTER BATISTELA NASCIMENTO
+// LISNAIRA SOUZA DA SILVA
+// Matheus Oliveira
+// Paulo gazela
+// João Gabriell 
+// Carlos Queiroz
+// Eberson Ferreira Rodrigues
+// Raoni Henrique Santos do Nascimento
+// Wender Silva
+// Carlos Eduardo Bruzadin
+// Mariana Pires Ribeiro
+// Lucas Alixame
+// Gabriel Fiaschi Ribeiro
+// Victor Hugo
+// Everton Ferreira Rodrigues
+// Rafael Henrique de Oliveira
 // Lucas Alixame
 // Éric dos Santos Ferreira
 // Francisco Neto
@@ -5,6 +21,8 @@
 // Eder Carvalho Barbosa
 // Miqueias de Jesus da Silva
 // André Furlan
+// Junio Grigorio da Silva
+// Fernando Gorzoni
 #include <iostream>
 
 int main(int argc, char **argv)
