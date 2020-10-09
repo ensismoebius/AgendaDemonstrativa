@@ -1,4 +1,16 @@
 // João Gabriell 
+// Carlos Queiroz
+// Eberson Ferreira Rodrigues
+// Raoni Henrique Santos do Nascimento
+// Wender Silva
+// Carlos Eduardo Bruzadin
+// Mariana Pires Ribeiro
+// Lucas Alixame
+// Gabriel Fiaschi Ribeiro
+// Victor Hugo
+// Everton Ferreira Rodrigues
+// Rafael Henrique de Oliveira
+// Lucas Alixame
 // Éric dos Santos Ferreira
 // Francisco Neto
 // Felipe Ferreira :)
