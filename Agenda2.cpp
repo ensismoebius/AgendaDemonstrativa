@@ -18,6 +18,7 @@
 // Eder Carvalho Barbosa
 // Miqueias de Jesus da Silva
 // André Furlan
+// Junio Grigorio da Silva
 #include <iostream>
 
 int main(int argc, char **argv)
