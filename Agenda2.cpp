@@ -1,5 +1,4 @@
-// LISNAIRA SOUZA DA SILVA
-//Lucas Alixame
+// Lucas Alixame
 // Éric dos Santos Ferreira
 // Francisco Neto
 // Felipe Ferreira :)
