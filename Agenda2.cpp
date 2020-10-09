@@ -1,5 +1,4 @@
-// ESTER BATISTELA NASCIMENTO
-//Lucas Alixame
+// Lucas Alixame
 // Éric dos Santos Ferreira
 // Francisco Neto
 // Felipe Ferreira :)
