@@ -1,3 +1,4 @@
+#include <string>
 #include <iostream>
 
 int main(int argc, char **argv)
@@ -5,7 +6,7 @@ int main(int argc, char **argv)
 	int dia = 0;
 	int mes = 0;
 	int ano = 0;
-	char *descricao = new char[100];
+	std::string descricao;
 
 	std::cout << "Informe o dia:" << std::endl;
 	std::cin >> dia;
@@ -16,8 +17,10 @@ int main(int argc, char **argv)
 	std::cout << "Informe o ano:" << std::endl;
 	std::cin >> ano;
 
+	std::cin::
+
 	std::cout << "Descreva o compromisso:" << std::endl;
-	std::cin >> descricao;
+	std::getline(std::cin, descricao);
 
 	// Exibe apenas o dia
 	std::cout << dia << std::endl;
