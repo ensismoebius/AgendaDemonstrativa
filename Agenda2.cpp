@@ -1,33 +1,26 @@
-#include <string>
 #include <iostream>
+
+#include "agenda.h"
+
+std::vector<struct itemDaAgenda> listaDoItensDaAgenda;
 
 int main(int argc, char **argv)
 {
-	int dia = 0;
-	int mes = 0;
-	int ano = 0;
-	std::string descricao;
+	while (true)
+	{
+		int escolha = exibeMenu();
 
-	std::cout << "Informe o dia:" << std::endl;
-	std::cin >> dia;
-
-	std::cout << "Informe o mes:" << std::endl;
-	std::cin >> mes;
-
-	std::cout << "Informe o ano:" << std::endl;
-	std::cin >> ano;
-
-	std::cin::
-
-	std::cout << "Descreva o compromisso:" << std::endl;
-	std::getline(std::cin, descricao);
-
-	// Exibe apenas o dia
-	std::cout << dia << std::endl;
-
-	// Exibe o dia, mes e ano separados por "-"
-	std::cout << dia << "-" << mes << "-" << ano << std::endl;
-
-	// Exibe o dia, mes e ano separados por "-" mais a descricao
-	std::cout << dia << "-" << mes << "-" << ano << ": " << descricao << std::endl;
+		switch (escolha)
+		{
+			case INSERIR_COMPROMISSO:
+				adicionarItemNaAgenda(listaDoItensDaAgenda);
+				break;
+			case EXIBIR_COMPROMISSOS:
+				mostrarItensDaAgenda(listaDoItensDaAgenda);
+				break;
+			default:
+				std::cout << "Opcao invalida" << std::endl;
+				break;
+		}
+	}
 }
