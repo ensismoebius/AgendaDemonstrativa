@@ -1,14 +1,15 @@
 #include <iostream>
-
 #include "agenda.h"
 
 std::vector<struct itemDaAgenda> listaDoItensDaAgenda;
 
 int main(int argc, char **argv)
 {
+	std::vector<itemDaAgenda> compromissosDeHoje;
+
 	while (true)
 	{
-		int escolha = exibeMenu();
+		OPERACOES escolha = exibeMenu();
 
 		switch (escolha)
 		{
@@ -18,6 +19,15 @@ int main(int argc, char **argv)
 			case EXIBIR_COMPROMISSOS:
 				mostrarItensDaAgenda(listaDoItensDaAgenda);
 				break;
+			case VER_COMPROMISSOS_DE_HOJE:
+				// Recupera os compromissos de hoje
+				compromissosDeHoje = recuperarCompromissosDeHoje(listaDoItensDaAgenda);
+				// Mostra os compromissos
+				mostrarItensDaAgenda(compromissosDeHoje);
+				break;
+			case SAIR:
+				// Retorna ao sistema operacional
+				return 0;
 			default:
 				std::cout << "Opcao invalida" << std::endl;
 				break;

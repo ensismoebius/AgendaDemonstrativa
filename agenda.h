@@ -4,8 +4,10 @@
 #include <string>
 #include <vector>
 
-const int INSERIR_COMPROMISSO = 1;
-const int EXIBIR_COMPROMISSOS = 2;
+enum OPERACOES
+{
+	INSERIR_COMPROMISSO, EXIBIR_COMPROMISSOS, VER_COMPROMISSOS_DE_HOJE, SAIR
+};
 
 struct itemDaAgenda
 {
@@ -15,8 +17,12 @@ struct itemDaAgenda
 		std::string descricao;
 };
 
-int exibeMenu();
+OPERACOES exibeMenu();
+
 void mostrarItensDaAgenda(std::vector<struct itemDaAgenda> &lista);
+
 void adicionarItemNaAgenda(std::vector<struct itemDaAgenda> &lista);
+
+std::vector<struct itemDaAgenda> recuperarCompromissosDeHoje(std::vector<struct itemDaAgenda> &lista);
 
 #endif /* AGENDA_H_ */
